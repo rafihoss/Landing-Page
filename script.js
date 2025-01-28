@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     mailIcon.addEventListener('click', function(event) {
         event.preventDefault();  // Prevents immediate navigation
-        const email = "rafihossain555@gmail.com";
+        const email = "sajibrafihossain@gmail.com";
 
         // Copy email to clipboard
         navigator.clipboard.writeText(email).then(function() {
