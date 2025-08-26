@@ -72,9 +72,9 @@ header {
 }
 
 .home-img img {
-  width: 75%;
+  width: 50%;
   height: auto;
-  border-radius: 50%;
+  border-radius: 25%;
 
 }
 
@@ -284,6 +284,7 @@ header {
 
 /* About section */
 .about {
+  display: none;
   padding: 2rem;
   background-color: #f0e5cc;
 }
@@ -326,7 +327,7 @@ header {
 /* contact section */ 
 .contact {
   padding: 4rem 2rem;
-  background-color: #fff8e7;
+  background-color: #f0e5cc;
   color: #1e1e24;
 }
 
@@ -479,7 +480,7 @@ header {
     width: 100%;
     max-width: 200px;
     margin-bottom: 2rem;
-    border-radius: 50%;
+    border-radius: 42%;
   }
 
   .home-text h2 {
@@ -517,6 +518,7 @@ header {
 
   .about {
     background-color: #fff8e7;
+    display: none;
   }
   
   .about-content {
@@ -551,7 +553,7 @@ header {
   }
 
   .contact{
-    background-color: #f0e5cc;
+    background-color: #fff8e7;
   }
 
   .socials-icons i {
